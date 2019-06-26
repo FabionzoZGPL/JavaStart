@@ -1,0 +1,29 @@
+import java.util.Random;
+public class ZadanieZmienne {
+
+    public static void main(String[] args) {
+        int x, y ;
+        Random random = new Random();
+
+         x = random.nextInt(100); //  max int x value 99
+         y = random.nextInt(100);
+
+
+        boolean result1 = x > y;
+        boolean result2 = x*2>y;
+        boolean result3 = (x+3) > y && (x-2<y);
+        boolean result4 = (x*y)%2 != 0;
+        
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
+
+
+
+
+
+    }
+}
